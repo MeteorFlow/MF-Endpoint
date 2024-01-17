@@ -6,6 +6,6 @@ class WeatherStation : BaseEntity<int>
     public string? Description { get; set; }
     public GeoLocation? Location { get; set; }
 
-    public Dictionary<string, object> AdditionalProperties { get; set; } =
+    public Dictionary<string, object> InstrumentParameters { get; set; } =
         new Dictionary<string, object> { };
 }
